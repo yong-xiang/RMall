@@ -1,0 +1,12 @@
+﻿@page
+@model RMall.Pages.SearchModel
+@{
+}
+
+<form action="javascript:void(0);" method="POST" onsubmit="search()">
+    <center><h1>Search Products:</h1> <h3><input type="text" placeholder="Product title" id='title' required />&nbsp;<input type="submit" value="Search" /></h3></center>
+</form>
+<br />
+<span id='matched'></span>
+<br />
+<table id='result' width="100%"></table>

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RMallAPIs", "RMallAPIs\RMallAPIs.csproj", "{83392212-881B-4916-AAAD-490A1BD70343}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RMall", "RMall\RMall.csproj", "{947092BB-25D2-4FAF-B447-A23E86C4B1A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FB33D217-56E2-43FA-A5DC-D157928CDF65}"
+	ProjectSection(SolutionItems) = preProject
+		mssql-db-script.sql = mssql-db-script.sql
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83392212-881B-4916-AAAD-490A1BD70343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83392212-881B-4916-AAAD-490A1BD70343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83392212-881B-4916-AAAD-490A1BD70343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83392212-881B-4916-AAAD-490A1BD70343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{947092BB-25D2-4FAF-B447-A23E86C4B1A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{947092BB-25D2-4FAF-B447-A23E86C4B1A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{947092BB-25D2-4FAF-B447-A23E86C4B1A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{947092BB-25D2-4FAF-B447-A23E86C4B1A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85A47DC1-2C94-47D0-A066-6530ACB133C9}
+	EndGlobalSection
+EndGlobal

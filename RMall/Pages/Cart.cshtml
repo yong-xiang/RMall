@@ -1,0 +1,13 @@
+﻿@page
+@model RMall.Pages.CartModel
+@{
+}
+
+<center><h1>My Cart</h1></center>
+<br />
+Total Cart Price: <span id='total'></span>
+<br />
+<table id='cartItems' width="100%"></table>
+
+<br />
+<a asp-page="/Checkout"><input type='button' value='Checkout' /></a>

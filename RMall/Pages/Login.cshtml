@@ -1,0 +1,13 @@
+﻿@page
+@model RMall.Pages.Shared.LoginModel
+@{
+}
+
+<h1>Login</h1>
+<form action="javascript:void(0);" method="POST" onsubmit="login()">
+    Username: <input type="text" id="username" placeholder="Username" required><br />
+    Password: <input type="password" id="password" placeholder="Password" required><br />
+    <input type="submit" value="Login"><br />
+    <br />
+    <a asp-page="/Register">Click here to register an account</a>
+</form>
